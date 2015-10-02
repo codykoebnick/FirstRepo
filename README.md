@@ -1,2 +1,2 @@
-# FirstRepo
-The First Repo
+##  Assignment number 1
+Cody Koebnick and Rafael Palomino
