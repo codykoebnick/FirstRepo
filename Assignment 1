@@ -1,6 +1,10 @@
+## Assignment 1
+Cody Koebnick & Rafael Palomino
+
 data(swiss)
-view(swiss)
+View(swiss)
 summary(swiss)
+?swiss
 
 
 hist(swiss$Catholic)
@@ -9,4 +13,6 @@ plot(swiss$Catholic, swiss$Fertility, xlab="percentage catholic",
 
 ## too many outliers 
 plot(swiss$Catholic, swiss$Education)
+
+var(swiss)
 
