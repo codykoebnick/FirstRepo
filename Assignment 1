@@ -1,0 +1,12 @@
+data(swiss)
+view(swiss)
+summary(swiss)
+
+
+hist(swiss$Catholic)
+plot(swiss$Catholic, swiss$Fertility, xlab="percentage catholic", 
+     ylab="Fertility", main="Rate of catholicism compared with fertility")
+
+## too many outliers 
+plot(swiss$Catholic, swiss$Education)
+
